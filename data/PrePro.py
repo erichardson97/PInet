@@ -142,9 +142,9 @@ def prepro(pdb,pdbpair,not_skip_pymol=0,train_flag=0,needapbs=0,pf='01-benchmark
 
     if needapbs:
     #     pdb2pqr='/dartfs-hpc/rc/home/w/f00355w/Bdai/pdb2pqr-linux-bin64-2.1.0/pdb2pqr'
-        pdb2pqr='/home/bowen/pinetrepofix/pdb2pqr-linux-bin64-2.1.0/pdb2pqr'
+        pdb2pqr='pdb2pqr'
         apbsflag='--whitespace --ff=amber -v --apbs-input'
-        apbs='/home/bowen/pinetrepofix/apbs-pdb2pqr/bin/apbs'
+        apbs='apbs'
 
 
         try:
